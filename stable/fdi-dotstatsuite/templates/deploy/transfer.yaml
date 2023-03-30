@@ -122,6 +122,8 @@ spec:
               value: "10"
             - name: "DefaultLanguageCode"
               value: "en"
+            - name: ShowAdvanceDbHealthInfo
+              value: 'false'
             - name: "SmtpHost"
               value: "{{ .Values.managed.smtp.host }}"
             - name: "SmtpPort"
